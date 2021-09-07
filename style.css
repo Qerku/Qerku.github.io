@@ -1,0 +1,44 @@
+* {
+    font-size: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+body {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+.box {
+    margin: 35px;
+    padding: 30px;
+    background-color: gray;
+    border: 7px solid gainsboro;
+    display: block;
+    box-shadow: 5px 5px 10px lightgray;
+}
+#input {
+    size: 100px;
+    color: #FFFFFF; 
+    font-family: Verdana; 
+    font-weight: bold; 
+    font-size: 32px; 
+    background-color: gray; 
+    border: 7px solid gainsboro;
+}
+#button {
+    size: 100px;
+    color: #FFFFFF; 
+    font-family: Verdana; 
+    font-weight: bold; 
+    font-size: 32px; 
+    background-color: gray; 
+    border: 7px solid gainsboro;
+}
+#button:hover {
+    font-size: 32px; 
+    box-shadow: 5px 5px 10px lightgray;
+}
